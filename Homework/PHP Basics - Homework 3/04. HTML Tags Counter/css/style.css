@@ -1,0 +1,77 @@
+html {
+    background-color: #00A1EA;
+    font-family: cursive;
+}
+
+p#title {
+    font-size: 50px;
+    text-align: center;
+    color: #FFF5C3;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+form#tags-counter {
+    border: 1px solid black;
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #DA7500;
+    box-shadow: 10px 10px 5px #3e3e3e;
+}
+
+span#label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input#tag-field {
+    display: inline-block;
+    margin: 20px 0 20px 0;
+    width: 150px;
+    padding: 0 15px 0 15px;
+    height: 30px;
+    font-size: 25px;
+    border-radius: 10px 0 0 10px;
+    border: 1px solid black;
+    vertical-align: middle;
+}
+
+input#button {
+    height: 32px;
+    width: 80px;
+    margin-left: -5px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-left: none;
+    border-radius: 0 10px 10px 0;
+    vertical-align: middle;
+    background-color: #02b5b5;
+    font-weight: bold;
+    font-family: tahoma;
+}
+
+input#button:hover {
+    cursor: pointer;
+}
+
+input#tag-field:focus, input#button:focus {
+    outline: none;
+}
+
+#valid {
+    color: #1b781b;
+    font-size: 25px;
+    margin-top: -10px;
+}
+
+#invalid {
+    color: #9b1e09;
+    font-size: 25px;
+    margin-top: -10px;
+}
+
+#score {
+    margin-bottom: 10px;
+}
+

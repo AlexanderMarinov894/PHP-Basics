@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "PW HappyNewYear";
+    src: url(../fonts/PWHappyNewYear.ttf);
+}
+
+html {
+    background: url(../img/background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+section {
+    font-family: "PW HappyNewYear";
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 2px 3px black, 3px 4px black, 4px 3px black, 4px 3px black;
+}
+
+#counter {
+    display: hide;
+    margin-top: -10px;
+    color: rgba(252, 138, 138, 0.94);
+}
+
+p.time {
+    font-family: tahoma;
+    display: block;
+    margin-top: -40px;
+    font-size: 80px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 3px black, 3px 4px black, 4px 3px black, 4px 3px black;
+}
+
+p.time:nth-of-type(3), p.time:nth-of-type(4) {
+    margin-top: -90px;
+}

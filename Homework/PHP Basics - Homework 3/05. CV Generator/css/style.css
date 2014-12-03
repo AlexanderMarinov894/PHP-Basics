@@ -1,0 +1,281 @@
+html {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background-color: #09B796;
+}
+
+#generator-title {
+    font-size: 30px;
+    text-align: center;
+    font-family: fantasy;
+    color: #F57E20;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px #000000;
+}
+
+input {
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+    border: 1px solid #CCCC51;
+}
+
+input:focus {
+    outline: none;
+    border-color: #F57E20;
+    box-shadow: 0 0 10px #F57E20;
+    background-color: #fdff95;
+}
+
+select {
+    padding-left: 5px;
+    border-radius: 10px;
+    border: 1px solid #CCCC51;
+}
+
+select:focus {
+    outline: none;
+    border-color: #F57E20;
+    box-shadow: 0 0 10px #F57E20;
+    background-color: #fdff95;
+}
+
+form#cv {
+    width: 450px;
+    margin: 0 auto;
+    background-color: #73CD47;
+    padding: 25px;
+    border: 1px solid black;
+    box-shadow: 10px 10px 5px rgba(51, 51, 51, 0.48);
+    border-radius: 25px;
+}
+
+legend {
+    font-weight: bold;
+}
+
+.input {
+    display: block;
+    margin-top: 5px;
+}
+
+#gender {
+    display: block;
+    margin-top: 10px;
+}
+
+#birthday-label, #nationality, #license-label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.input-pos {
+    display: inline-block;
+    margin-top: 5px;
+}
+
+#from, #to {
+    display: block;
+}
+
+.add-button {
+    margin-top: 5px;
+    border-radius: 10px 0 0 10px;
+    width: 70px;
+    height: 25px;
+    background-color: #F57E20;
+    border: 2px solid #CCCC51;
+    font-weight: bold;
+    color: #121e25;
+}
+
+.remove-button {
+    margin-left: -7px;
+    margin-top: 5px;
+    padding-right: 70px;
+    border-radius: 0 10px 10px 0;
+    width: 70px;
+    height: 25px;
+    background-color: #F57E20;
+    border: 2px solid #CCCC51;
+    border-left: 1px solid rgba(204, 204, 81, 0.33);;
+    font-weight: bold;
+    color: #121e25;
+}
+
+.add-button:hover, .remove-button:hover {
+    cursor: pointer;
+}
+
+.position-label-comp {
+    display: inline-block;
+    width: 118px;
+}
+
+.position-label-from {
+    display: inline-block;
+    width: 40px;
+}
+
+#language-input {
+    width: 80px;
+}
+
+
+#comp-skills-label, #other-skills-label {
+    display: block;
+}
+
+#generate-button {
+    display: block;
+    margin: 20px auto;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #F57E20;
+    font-weight: bold;
+    color: #121e25;
+    font-size: 18px;
+}
+
+#generate-button:hover {
+    cursor: pointer;
+    background-color: #fdff95;;
+}
+
+#document-title {
+    font-family: Papyrus, fantasy;
+    text-align: center;
+    font-style: italic;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#cv {
+    position: relative;
+    background-color: #fff1d6;
+    width: 600px;
+    padding: 15px 0 15px 0;
+    margin: 0 auto;
+    -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+}
+
+#cv:before, #cv:after
+{
+    position: absolute;
+    width: 40%;
+    height: 10px;
+    content: ' ';
+    left: 12px;
+    bottom: 12px;
+    background: transparent;
+    -webkit-transform: skew(-5deg) rotate(-5deg);
+    -moz-transform: skew(-5deg) rotate(-5deg);
+    -ms-transform: skew(-5deg) rotate(-5deg);
+    -o-transform: skew(-5deg) rotate(-5deg);
+    transform: skew(-5deg) rotate(-5deg);
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    z-index: -1;
+}
+
+#cv:after
+{
+    left: auto;
+    right: 12px;
+    -webkit-transform: skew(5deg) rotate(5deg);
+    -moz-transform: skew(5deg) rotate(5deg);
+    -ms-transform: skew(5deg) rotate(5deg);
+    -o-transform: skew(5deg) rotate(5deg);
+    transform: skew(5deg) rotate(5deg);
+}
+
+table {
+    display: block;
+    border-collapse: collapse;
+}
+
+th {
+    text-decoration: underline;
+    padding: 0 5px 0 5px;
+}
+
+td {
+    padding: 0 10px 0 10px;
+}
+
+.title {
+    text-align: center;
+}
+
+.table-const {
+    text-align: right;
+}
+
+#cv-personal,#cv-last, #cv-comp-skills, #cv-other-skills {
+    font-family: Papyrus, fantasy;
+    margin: 0 auto;
+    background-color: #fff1d6;
+}
+
+#cv-personal {
+    width: 300px;
+}
+
+#cv-last {
+    margin-top: 10px;
+    width: 260px;
+}
+
+#cv-comp-skills {
+    margin-top: 10px;
+    width: 400px;
+}
+
+#cv-other-skills {
+    margin-top: 10px;
+    width: 430px;
+}
+
+.inner-table {
+    border: 1px solid black;
+}
+
+.level {
+    text-align:  center;
+}
+
+.inner-table-head{
+    text-decoration: none;
+    border: 1px solid black;
+}
+
+.error {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    text-align: center;
+    font-size: 40px;
+    color: red;
+    font-weight: bold;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px #000000;
+}
+
+.go-back {
+    margin: 0 auto;
+    width: 200px;
+    height: 100px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    text-align: center;
+    font-size: 40px;
+    color: #ffe16a;
+    font-weight: bold;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px #000000;
+    border-radius: 45px;
+    background-color: #3a6980;
+}
+
+.go-back:hover {
+    cursor: pointer;
+    background-color: #09B796;
+}

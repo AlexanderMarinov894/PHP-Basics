@@ -1,0 +1,76 @@
+html {
+    font-family: tahoma;
+    background-color: #B2A7D0;
+}
+
+form#register {
+    width: 380px;
+    margin: 20px auto;
+    background-color: #8BB9D6;
+    padding: 10px 0 10px 0;
+    border: 1px solid rgba(0, 0, 0, 0.50);
+    box-shadow: 10px 10px 5px #888888;
+}
+
+form#register input:focus {
+    outline-color: #7b6e90;
+}
+
+form#register section#name input {
+    display: block;
+    width: 330px;
+    padding-left: 10px;
+    height: 40px;
+    margin: 15px auto;
+    font-size: 25px;
+}
+
+form#register section#details {
+    display: inline-block;
+    margin-left: 18px;
+}
+
+form#register section#details input#age {
+    display: inline-block;
+    width: 60px;
+    padding-left: 10px;
+    height: 40px;
+    font-size: 25px;
+}
+
+form#register section#details input.selection {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: -20%;
+    margin-left: 35px;
+}
+
+span.label{
+    font-size: 20px;
+}
+
+form#register section#send input {
+    display: block;
+    width: 344px;
+    height: 50px;
+    margin: 15px auto;
+    border-radius: 15px;
+    background-color: #8081B8;
+    border: 3px solid rgba(0, 0, 0, 0.33);
+    color: #e8e8e8;
+    font-size: 22px;
+}
+
+form#register section#send input:hover {
+    cursor: pointer;
+    background-color: #B2A7D0;
+}
+
+p#print {
+    padding-top: 20px;
+    text-align: center;
+    font-family: ‘Lucida Console’, Monaco, monospace;
+    font-size: 30px;
+    font-weight: bold;
+}

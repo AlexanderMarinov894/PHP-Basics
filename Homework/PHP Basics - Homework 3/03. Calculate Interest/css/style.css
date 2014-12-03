@@ -1,0 +1,93 @@
+html {
+    background-color: #C7DDF5;
+    font-family: "Century Gothic";
+}
+
+#title {
+    text-align: center;
+    color: #255587;
+    font-size: 32px;
+    font-weight: bold;
+    text-shadow: 2px 2px #888888;
+}
+
+#interest-form {
+    width: 480px;
+    margin: 0 auto;
+    padding: 10px 0 10px 0;
+    background-color: #669ACC;
+    font-weight: bold;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+label#amount {
+    display: block;
+}
+
+label#currency {
+    display: block;
+    margin-left: 195px;
+}
+
+label#interest {
+    display: inline-block;
+}
+
+label#period {
+    height: 25px;
+}
+
+.selection {
+    height: 29px;
+    background: #f4f4f4;
+    vertical-align: 16%;
+}
+
+label:not(:nth-of-type(1)) {
+    margin-top: 5px;
+}
+
+input#button {
+    display: block;
+}
+
+span.label {
+    display: inline-block;
+    margin-left: 15px;
+    width: 150px;
+    font-size: 21px;
+}
+
+input.input-value {
+    width: 190px;
+    height: 25px;
+    font-size: 21px;
+    padding: 0 5px 0 5px;
+}
+
+#result, #result-err {
+    resize: none;
+    height: 15px;
+    text-align: center;
+    width: 98.7%;
+    color: #228b22;
+}
+
+#result-err {
+    color: #ff5381 !important;
+}
+
+input#button {
+    display: block;
+    border: 1px solid #336799;
+    background-color: #A0B7D9;
+    margin: 20px auto;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+input#button:hover {
+    cursor: pointer;
+}
